@@ -23,4 +23,4 @@ input_array = np.array([user_input]).reshape (-1, 1)
 # Predict the house price
 if st.button('Predict Price'):
   predicted_price = model.predict(input_array)
-  st.write(f"The predicted house price is: ${predicted_price[0]: 2f}")
+  st.write(f"The predicted house price is: ${predicted_price[0]:.2f}")
