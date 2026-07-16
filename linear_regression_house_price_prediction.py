@@ -12,7 +12,7 @@ from joblib import load
 import numpy as np
 
 # Load the model
-model - load('linear_regression_model.joblib')
+model = load('linear_regression_model.joblib')
 
 # Create a simple user input
 user_input - st.number_input('Enter house size:', min_value=100, max_value=10000, step=50)
